@@ -1,0 +1,90 @@
+/* -------------------- Table of contents --------------------
+
+1. Sections
+    1.1. Intro
+    1.1. Counters
+    1.1. Subscribe
+    1.1. SignUp
+
+----------------------- Table of content -------------------- */
+
+/* --------------------
+   -------------------- Intro -------------------- */
+.b-intro__background { background-image: url('../../img/banner.jpg'); }
+
+.b-intro__slider .b-slider_item__first .b-intro_wrapper { background-image: url('../../images/gallery/slide-1.jpg'); }
+.b-intro__slider .b-slider_item__second .b-intro_wrapper { background-image: url('../../images/gallery/slide-2.jpg'); }
+
+.m-touch .b-intro__video { background-image: url('../../images/gallery/slide-2.jpg'); }
+
+/* --------------------
+   -------------------- Counters -------------------- */
+.b-counters { background-image: url('../../img/bg.jpg'); }
+
+/* --------------------
+   -------------------- Subscribe -------------------- */
+.b-subscribe { background-image: url('../../images/gallery/slide-2.jpg'); }
+
+/* --------------------
+   -------------------- SignUp -------------------- */
+.b-signUp { background-image: url('../../img/moscow.jpg'); background-size: cover;}
+
+.b-schedule_speech_header h3{
+    margin-top: -24px;
+    padding-bottom: 10px;
+    color: #737373;
+}
+.b-schedule_speech_header h4{
+    color: #aaa;
+}
+.grey{
+    color: #209cd5;
+}
+
+.img-responsive{
+    max-width: 100%; height: auto;
+}
+
+.b-signUp .b-overview_header_cell{
+    vertical-align: middle;
+}
+.addeventatc_dropdown .copyx{
+    display: none !important;
+}
+
+@media (max-width: 767px) {
+
+    .b-schedule_speech_header { font-size: .875em; }
+    .b-schedule_timeLine { padding: 20px 0 60px 50px; margin-left: 40px;}
+    .b-schedule_speech_header_time{margin: 0;}
+    .b-schedule_speech_header h3{margin: 0;    }
+    
+    }
+
+}
+@media (max-width: 767px){
+.b-intro_container {
+    margin: 0 20px;
+}
+}
+@media (max-width: 420px){
+.b-intro_content {
+    padding-top: 60px;
+}
+.b-intro_header {
+    margin-bottom: 8px;
+}
+.b-intro_header h1 ~ p {
+    margin: 8px 0 0;
+}
+.b-intro_header h1 {line-height: 1.8rem}
+}
+#signUp .col-lg-6{
+    padding-top:124px;
+}
+@media (max-width: 969px){
+    #signUp .col-lg-6{
+        padding-top:40px;
+        padding-bottom: 40px;
+    }
+}
