@@ -1400,7 +1400,7 @@
                                         </div>
                                             <form id="sf-form" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
                                                 <input name="Campaign_ID" type="hidden" value="701D0000001SD3JIAW">
-                                                <input type="hidden" name="oid" value="00D200000008P1X">
+                                                <input type="hidden" class="oid" name="oid" value="">
                                                 <input type="hidden" name="00N20000001fxUq" value="Потенциальный клиент">
                                                 <input type="hidden" name="00N20000002q2T2" value="Salesforce">
                                                 <input type="hidden" name="lead_source" value="Маркетинговые кампании">
@@ -1665,5 +1665,12 @@
 
 }); 
    </script>
+<!--SPAM PROTECTION-->
+<script type="text/javascript">
+var list = document.getElementsByClassName("oid");
+list[0].value = '00D200000008P1X';
+
+
+</script>
   </body>
 </html>
